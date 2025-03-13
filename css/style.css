@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Sigmar&display=swap');
+@font-face{
+    font-family: Bohemia Soul;
+    src:url("../fonts/Bohemia Soul.otf")
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header,nav,main,footer{
+  background-color: #780000;
+color: #ffd670;
+width: 1280px;
+margin-left: auto;
+margin-right: auto;
+padding: 50px;  
+font-family: "Sigmar", sans-serif;
+    letter-spacing: 2px;
+}
+nav{
+     background-color: #ffb563;
+    text-align: center;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: #3a5a40;
+    width: 11%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    min-width: 100px;
+    /*margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;*/
+    margin: 5px;
+    font-family: "Kanit", sans-serif;
+}
+nav ul li a:link, nav ul li a:visited{
+    text-decoration: none;
+    color: #d9ed92;
+}
+nav ul li:hover{
+    width: 12.5%;
+    background-color: #028090;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    padding: 30px;
+}
+section{
+    background-color: #028090;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    overflow: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:"Lora", serif;
+    text-align: justify;
+}
+h2{
+    margin-bottom: 30px;
+    padding: 20px;
+    color: lawngreen;
+    font-family: Bohemia Soul;
+}
+h1{
+    text-align: center;
+    font-size: 48px;
+    color: #aacc00;
+}
+footer{
+    text-align: center;
+    height: 20px;
+    background-color: #ffb563;
+    color: #012a4a;
+    font-size: 18px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-spacing: 10px;
+}
+#tabla_1{
+    background-color: #8ecae6;
+    border: 3px solid red;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+#tabla_1 th{
+    font-size: 20px;
+    background-color: #ffb703;
+    color: #003049;
+}
+#tabla_1 th, #tabla_1 td{
+    border: 3px solid #04151f;
+    padding: 1opx;
+}
+#tabla_2{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    border-collapse: collapse;
+}
+#tabla_2 th{
+    background-color: #bee1e6;
+}
+#tabla_2td, #tabla_2 th{
+    padding: 10px;
+    border-width: 5px;
+    border-color: #fe7f2d;
+    border-style: solid;
+}
+#tabla_2 tbody tr:nth-child(even){
+    background-color:#06d6a0;
+}
+#tabla_3{
+    width: 70%;
+    background-color: #4a4e69;
+    color: aqua;
+}
+#tabla_3 th{
+    background-color: #8c2f39;
+    color: aqua;
+}
+#tabla_3 td, #tabla_3 th{
+    border-width: 2px;
+    border-color: cadetblue;
+    border-style: solid;
+    padding: 20px;
+}
+#tabla_3 tr:hover{
+    background-color: cornsilk;
+    color: firebrick;
+}
+footer{
+    margin-left: -50px;
+}
+main{
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+  width: 100%;
+    margin-top: 30px;
+}
+#img_gif{
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+p{
+    padding: 20px;
+    margin-top: 30px;
+}
+.img_flotante{
+    width: 20%;
+    float: left;
+    margin-top: 1px;
+    margin-right: 20px;
+}
+.alineacion{
+    float: right;
+    width: 30%;
+    margin-left: 20px;
+}
+#fondo_box{
+    background-image: url(Imagenes/jellyfish-5818601_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: yellow;
+}
+.img_filtro{
+    text-align: center;
+}
+.img_filtro p, img_filtro h2{
+    text-align: justify;
+}
+.img_filtro img{
+    width: 20%;
+    margin: 20px;
+}
+#redondeado{
+    border-radius: 50%;
+}
+form{
+    width: 60%;
+    background-color:#09d18d;
+    height: auto;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+label{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+}
+input, textarea, select{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #2dc4d8;
+    color: blue;
+    font-weight: bold;
+    font-size: 16px;
+}
+input[type=submit]{
+    width: 20%;
+    padding: 10px;
+    background-color: #1e5d21;
+    font-weight: bold;
+    color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    display: block;
+margin-top: 30px;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, select:focus{
+    background-color: bisque;
+    color: darkcyan;
+}
+textarea{
+    padding: 20px;
+}
+input[type=radio], input[type=checkbox]{
+    width: 10%;
+}

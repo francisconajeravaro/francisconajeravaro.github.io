@@ -1,0 +1,138 @@
+<!-- 
+FACULTAD DE ARQUITECTURA 
+COLEGIO DE DISEÑO GRÁFICO 
+DISEÑO DE INTERFACES GRÁFICAS DE USUARIO 
+NÁJERA VARO FRANCISCO 
+-->
+<html>
+<head>
+<title>Enlaces en html</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        header, nav,main,footer{
+            width: 1280px;
+            padding: 30px;
+            background-color: darkblue;
+            color: aliceblue;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        nav{
+            background-color: royalblue;
+        }
+        main{
+            background-color: lightblue;
+            height: auto;
+        }
+        section{
+            width: 900px;
+            background-color: dodgerblue;
+            margin-bottom: 30px;
+            padding: 30px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        header,footer{
+            text-align: center;
+        }
+        h1{
+            font-size: 64px;
+            margin-bottom: 30px;
+        }
+        h6{
+            font-size: 18px;
+        }
+        nav ul{
+            text-align: center;
+        }
+        nav ul li{
+            width: 80px;
+            background-color: deepskyblue;
+            list-style-type: none;
+            display: inline-block;
+            padding: 10px;
+            text-align: center;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        P{
+            margin-bottom: 40PX;
+        }
+        section a:visited,section a:link{
+            color: darkslateblue;
+            text-decoration: none;
+        }
+        section a:active{ 
+        color: yellow;
+        }
+        section a:hover{
+            color: lawngreen;
+            font-weight: bold;
+            }
+        nav a:link, nav a:visited{
+            color: darkgreen;
+            text-decoration: none;            
+                font-weight: bold;
+            }
+        nav ul li:hover{
+            background-color:aqua;
+            }
+        main nav{
+            margin-left: -30px;
+            }
+        header img{
+                width: 5%;
+                float: right;
+            }
+    </style>
+    </head>
+    <body>
+    <header>
+ <a href=../Index.html><img src=../Imagenes/home.png></a>
+                <h1>Enlaces</h1>
+        </header>
+         <nav>
+        <ul>
+            <li><a href="Formatos.html">Formatos</a></li>
+            <li><a href="Lista.html">Listas</a></li>
+            <li><a href="Enlaces.html">Enlaces</a></li>
+            <li><a href="Tablas.html">Tablas</a></li>
+            <li><a href="imagenes.html">Imagenes</a></li>
+            <li><a href="Audio.html">Audio</a></li>
+            <li><a href="Video.html">Video</a></li>
+            <li><a href="Formulario.html">Formularios</a></li>
+        </ul>
+        </nav>
+        <main>
+        <section>
+            <h2 id="Externo">Enlace externo</h2>
+            <p>Lorem ipsum dolor sit amet, <a href="http://www.google.com">Google</a> consectetur adipiscing elit. Cras eu fringilla augue, sit amet convallis arcu. Duis urna mauris, elementum sit amet mauris vitae, consectetur bibendum ipsum.It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Donec arcu justo, vehicula eu hendrerit vitae, facilisis ac neque. Nunc velit ipsum, lacinia a accumsan eget, auctor sed elit. <a href="http://www.buap.mx">Benèmerita Universidad Autònoma de Puebla</a> Suspendisse potenti. Proin in erat sit amet lorem faucibus volutpat. Maecenas sagittis mattis felis a tempus. Nunc vitae tellus massa.</p>
+            </section>
+            <section>
+            <h2 id="Interno">Enlace interno</h2>
+            <p>Lorem ipsum dolor sit amet, <a href="Formatos.html">Formatos</a>consectetur adipiscing elit. Cras eu fringilla augue, sit amet convallis arcu. Duis urna mauris, elementum sit amet mauris vitae, It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.consectetur bibendum ipsum. Donec arcu justo, vehicula eu hendrerit vitae, facilisis ac neque. Nunc velit ipsum, lacinia a accumsan eget,<a href="Lista.html">Listas</a> auctor sed elit. Suspendisse potenti. Proin in erat sit amet lorem faucibus volutpat. Maecenas sagittis mattis felis a tempus. Nunc vitae tellus massa.</p>
+            </section>
+            <section>
+            <h2 id="Email">Enlace a mail</h2>
+            <p>Lorem ipsum dolor sit amet, <a href="mailto:francisco.najerav@alumno.buap.mx">Francisco Nàjera</a>consectetur adipiscing elit. Cras eu fringilla augue, sit amet convallis arcu. Duis urna mauris, elementum sit amet mauris vitae, consectetur bibendum ipsum. Donec arcu justo, vehicula eu hendrerit vitae, facilisis ac neque. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.Nunc velit ipsum, lacinia a accumsan eget, auctor sed elit. Suspendisse potenti. Proin in erat sit amet lorem faucibus volutpat. Maecenas sagittis mattis felis a tempus. Nunc vitae tellus massa.</p>
+            </section>
+            <section>
+            <h2 id="Descarga">Enlace a descarga de archivo</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu fringilla augue,<a href=../Evidencias/imagenes.pdf download>Tareas</a> sit amet convallis arcu. Duis urna mauris, elementum sit amet mauris vitae, consectetur bibendum ipsum. Donec arcu justo, vehicula eu hendrerit vitae, facilisis ac neque. Nunc velit ipsum, lacinia a accumsan eget, auctor sed elit. Suspendisse potenti. Proin in erat sit amet lorem faucibus volutpat. Maecenas sagittis mattis felis a tempus. Nunc vitae tellus massa.</p>
+            </section>
+            <nav>
+            <ul>
+                <li><a href="#Externo">Externo</a></li>
+                <li><a href="#Interno">Interno</a></li>
+                <li><a href="#Email">Email</a></li>
+                <li><a href="#Descarga">Descarga</a></li>
+                </ul>
+            </nav>
+        </main>
+        <footer>
+        <h6>Nájera Varo Francisco</h6></footer>
+    </body>
+</html>
